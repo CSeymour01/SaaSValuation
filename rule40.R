@@ -1,6 +1,7 @@
 library(rvest)
 
 # read_html(link) will read a website page and store it into a variable if wanted
+#any stock tickers can be entered here and the program will run through; can use the same reticulate package from positionadding.R to create a user interface with python. 
 stock1 <- "PARA"
 stock2 <- "GOOG"
 stock3 <- "PINS"
